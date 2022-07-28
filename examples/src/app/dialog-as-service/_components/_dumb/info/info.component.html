@@ -1,0 +1,9 @@
+  <div class="main" data-test='notice-dialog'>
+    <div class="content">
+      <h2 class="mts-h2-medium label">{{ infoDialogModel.label }}</h2>
+      <p  class="mts-p1-regular" [innerHTML]='infoDialogModel.content' ></p>
+      <div class="buttons">
+        <button (click)="onBtnClick()">{{infoDialogModel.btnText}}</button>
+      </div>
+    </div>
+  </div>
